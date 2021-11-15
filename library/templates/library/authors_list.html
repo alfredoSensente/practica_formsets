@@ -1,0 +1,14 @@
+{% extends 'library/layout.html' %}
+
+{% block title %}
+Authors list
+{% endblock title %}
+    
+{% block content %}
+<ul>
+  {% for author in authors %}
+  <li>
+    <a href="{% url 'library:add_books' author.pk %}">{{ author }}</a></li>
+  {% endfor %}
+</ul>
+{% endblock content %}

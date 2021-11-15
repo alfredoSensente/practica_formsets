@@ -1,0 +1,10 @@
+{
+    "python.defaultInterpreterPath": "/home/mugen/Documentos/Proyectos/practica_formsets/env/bin/python3",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "python.linting.pylintArgs": [
+      "--load-plugins",
+      "pylint_django",
+      "--disable=django-not-configured",
+    ],
+}
